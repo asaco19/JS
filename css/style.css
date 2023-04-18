@@ -6,24 +6,20 @@ body {
         margin: 0 auto;
     }
     
-    
     h1,h2,h3,h4,h5,h6,p {
         padding: 10px 0;
         margin: 0;
     }
-    
     
     ul,li {
         padding: 0;
         margin: 0;
     }
     
-    
     li{
     list-style: none;
     padding: 20px;
     }
-    
     
     header {
         background-color: white;
@@ -32,17 +28,14 @@ body {
         padding: 0 60px;
     }
     
-    
     .heading {
         width: 50%;
         margin-left: 30px;
     }
     
-    
     .navbar {
         width: 50%;
     }
-    
     
     .nav-lists {
         padding: 0;
@@ -54,7 +47,6 @@ body {
         background-color: red;
     }
     
-    
     .show-lists{
         background-color: #ffffff;
         width: 200px;
@@ -63,24 +55,20 @@ body {
         top: 70px;
     }
     
-    
     .background-red{
         background-color: red ;
         color: white;
     }
     
-    
     .pull-down-list{
         padding: 15px 35px 15px 15px;
         border: 1px solid #eee;
     }
-    
-    
+
     .contents{
         height: 100vh;
         background-color: #f0f0f0;
     }
-    
     
     .list-status{
         width: 230px;
@@ -88,6 +76,3 @@ body {
     .hidden{
         display:none
     }
-    
-    
-    
