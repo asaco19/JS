@@ -1,9 +1,10 @@
-//let lists = document.getElementsByClassName("pull-down-list")
-//console.log(lists)
+function pulldown(){
+    //実際に行っている処理
 
 const lists = document.getElementById('lists')
 const pulldown = document.getElementById("pull-down")
-
+const pulldownchild = document.querySelectorAll(".pull-down-list")
+const currentList = document.getElementById("current-list")
 
 lists.addEventListener('mouseover',function(){
     console.log('クリック前:青');
@@ -28,3 +29,13 @@ lists.addEventListener('mouseout',function(){
     this.removeAttribute("style","background-color:red;");
 })
 
+pulldownchild.forEach(function(list){
+    list.addEventListener('click',function(){
+        const value = list.innerHTML
+        console.log(value)
+        currentList.innerHTML = value
+    })
+})
+}
+
+window.addEventListener('load',pulldown)
