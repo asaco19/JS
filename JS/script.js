@@ -3,7 +3,7 @@ function pulldown(){
 
 const lists = document.getElementById('lists')
 const pulldown = document.getElementById("pull-down")
-const pulldownchild = document.querySelectorAll(".pull-down-list")
+const pulldownChild = document.querySelectorAll(".pull-down-list")
 const currentList = document.getElementById("current-list")
 
 lists.addEventListener('mouseover',function(){
@@ -29,7 +29,7 @@ lists.addEventListener('mouseout',function(){
     this.removeAttribute("style","background-color:red;");
 })
 
-pulldownchild.forEach(function(list){
+pulldownChild.forEach(function(list){
     list.addEventListener('click',function(){
         const value = list.innerHTML
         console.log(value)
